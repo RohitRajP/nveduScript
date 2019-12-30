@@ -1,0 +1,414 @@
+0
+<Voice id=afrikaans
+          name=afrikaans
+          languages=[b'\x05af']
+          gender=male
+          age=None>
+1
+<Voice id=aragonese
+          name=aragonese
+          languages=[b'\x05an']
+          gender=male
+          age=None>
+2
+<Voice id=bulgarian
+          name=bulgarian
+          languages=[b'\x05bg']
+          gender=None
+          age=None>
+3
+<Voice id=bosnian
+          name=bosnian
+          languages=[b'\x05bs']
+          gender=male
+          age=None>
+4
+<Voice id=catalan
+          name=catalan
+          languages=[b'\x05ca']
+          gender=male
+          age=None>
+5
+<Voice id=czech
+          name=czech
+          languages=[b'\x05cs']
+          gender=male
+          age=None>
+6
+<Voice id=welsh
+          name=welsh
+          languages=[b'\x05cy']
+          gender=male
+          age=None>
+7
+<Voice id=danish
+          name=danish
+          languages=[b'\x05da']
+          gender=male
+          age=None>
+8
+<Voice id=german
+          name=german
+          languages=[b'\x05de']
+          gender=male
+          age=None>
+9
+<Voice id=greek
+          name=greek
+          languages=[b'\x05el']
+          gender=male
+          age=None>
+10
+<Voice id=default
+          name=default
+          languages=[b'\x05en']
+          gender=male
+          age=None>
+11
+<Voice id=english
+          name=english
+          languages=[b'\x02en-gb']
+          gender=male
+          age=None>
+12
+<Voice id=en-scottish
+          name=en-scottish
+          languages=[b'\x05en-sc']
+          gender=male
+          age=None>
+13
+<Voice id=english-north
+          name=english-north
+          languages=[b'\x05en-uk-north']
+          gender=male
+          age=None>
+14
+<Voice id=english_rp
+          name=english_rp
+          languages=[b'\x05en-uk-rp']
+          gender=male
+          age=None>
+15
+<Voice id=english_wmids
+          name=english_wmids
+          languages=[b'\x05en-uk-wmids']
+          gender=male
+          age=None>
+16
+<Voice id=english-us
+          name=english-us
+          languages=[b'\x02en-us']
+          gender=male
+          age=None>
+17
+<Voice id=en-westindies
+          name=en-westindies
+          languages=[b'\x05en-wi']
+          gender=male
+          age=None>
+18
+<Voice id=esperanto
+          name=esperanto
+          languages=[b'\x05eo']
+          gender=male
+          age=None>
+19
+<Voice id=spanish
+          name=spanish
+          languages=[b'\x05es']
+          gender=male
+          age=None>
+20
+<Voice id=spanish-latin-am
+          name=spanish-latin-am
+          languages=[b'\x05es-la']
+          gender=male
+          age=None>
+21
+<Voice id=estonian
+          name=estonian
+          languages=[b'\x05et']
+          gender=None
+          age=None>
+22
+<Voice id=persian
+          name=persian
+          languages=[b'\x05fa']
+          gender=None
+          age=None>
+23
+<Voice id=persian-pinglish
+          name=persian-pinglish
+          languages=[b'\x05fa-pin']
+          gender=None
+          age=None>
+24
+<Voice id=finnish
+          name=finnish
+          languages=[b'\x05fi']
+          gender=male
+          age=None>
+25
+<Voice id=french-Belgium
+          name=french-Belgium
+          languages=[b'\x05fr-be']
+          gender=male
+          age=None>
+26
+<Voice id=french
+          name=french
+          languages=[b'\x05fr-fr']
+          gender=male
+          age=None>
+27
+<Voice id=irish-gaeilge
+          name=irish-gaeilge
+          languages=[b'\x05ga']
+          gender=None
+          age=None>
+28
+<Voice id=greek-ancient
+          name=greek-ancient
+          languages=[b'\x05grc']
+          gender=male
+          age=None>
+29
+<Voice id=hindi
+          name=hindi
+          languages=[b'\x05hi']
+          gender=male
+          age=None>
+30
+<Voice id=croatian
+          name=croatian
+          languages=[b'\x05hr']
+          gender=male
+          age=None>
+31
+<Voice id=hungarian
+          name=hungarian
+          languages=[b'\x05hu']
+          gender=male
+          age=None>
+32
+<Voice id=armenian
+          name=armenian
+          languages=[b'\x05hy']
+          gender=male
+          age=None>
+33
+<Voice id=armenian-west
+          name=armenian-west
+          languages=[b'\x05hy-west']
+          gender=male
+          age=None>
+34
+<Voice id=indonesian
+          name=indonesian
+          languages=[b'\x05id']
+          gender=male
+          age=None>
+35
+<Voice id=icelandic
+          name=icelandic
+          languages=[b'\x05is']
+          gender=male
+          age=None>
+36
+<Voice id=italian
+          name=italian
+          languages=[b'\x05it']
+          gender=male
+          age=None>
+37
+<Voice id=lojban
+          name=lojban
+          languages=[b'\x05jbo']
+          gender=None
+          age=None>
+38
+<Voice id=georgian
+          name=georgian
+          languages=[b'\x05ka']
+          gender=None
+          age=None>
+39
+<Voice id=kannada
+          name=kannada
+          languages=[b'\x05kn']
+          gender=None
+          age=None>
+40
+<Voice id=kurdish
+          name=kurdish
+          languages=[b'\x05ku']
+          gender=male
+          age=None>
+41
+<Voice id=latin
+          name=latin
+          languages=[b'\x05la']
+          gender=male
+          age=None>
+42
+<Voice id=lingua_franca_nova
+          name=lingua_franca_nova
+          languages=[b'\x05lfn']
+          gender=male
+          age=None>
+43
+<Voice id=lithuanian
+          name=lithuanian
+          languages=[b'\x05lt']
+          gender=male
+          age=None>
+44
+<Voice id=latvian
+          name=latvian
+          languages=[b'\x05lv']
+          gender=male
+          age=None>
+45
+<Voice id=macedonian
+          name=macedonian
+          languages=[b'\x05mk']
+          gender=male
+          age=None>
+46
+<Voice id=malayalam
+          name=malayalam
+          languages=[b'\x05ml']
+          gender=male
+          age=None>
+47
+<Voice id=malay
+          name=malay
+          languages=[b'\x05ms']
+          gender=male
+          age=None>
+48
+<Voice id=nepali
+          name=nepali
+          languages=[b'\x05ne']
+          gender=male
+          age=None>
+49
+<Voice id=dutch
+          name=dutch
+          languages=[b'\x05nl']
+          gender=male
+          age=None>
+50
+<Voice id=norwegian
+          name=norwegian
+          languages=[b'\x05no']
+          gender=male
+          age=None>
+51
+<Voice id=punjabi
+          name=punjabi
+          languages=[b'\x05pa']
+          gender=None
+          age=None>
+52
+<Voice id=polish
+          name=polish
+          languages=[b'\x05pl']
+          gender=male
+          age=None>
+53
+<Voice id=brazil
+          name=brazil
+          languages=[b'\x05pt-br']
+          gender=male
+          age=None>
+54
+<Voice id=portugal
+          name=portugal
+          languages=[b'\x05pt-pt']
+          gender=male
+          age=None>
+55
+<Voice id=romanian
+          name=romanian
+          languages=[b'\x05ro']
+          gender=male
+          age=None>
+56
+<Voice id=russian
+          name=russian
+          languages=[b'\x05ru']
+          gender=male
+          age=None>
+57
+<Voice id=slovak
+          name=slovak
+          languages=[b'\x05sk']
+          gender=male
+          age=None>
+58
+<Voice id=albanian
+          name=albanian
+          languages=[b'\x05sq']
+          gender=male
+          age=None>
+59
+<Voice id=serbian
+          name=serbian
+          languages=[b'\x05sr']
+          gender=male
+          age=None>
+60
+<Voice id=swedish
+          name=swedish
+          languages=[b'\x05sv']
+          gender=male
+          age=None>
+61
+<Voice id=swahili-test
+          name=swahili-test
+          languages=[b'\x05sw']
+          gender=male
+          age=None>
+62
+<Voice id=tamil
+          name=tamil
+          languages=[b'\x05ta']
+          gender=male
+          age=None>
+63
+<Voice id=turkish
+          name=turkish
+          languages=[b'\x05tr']
+          gender=male
+          age=None>
+64
+<Voice id=vietnam
+          name=vietnam
+          languages=[b'\x05vi']
+          gender=male
+          age=None>
+65
+<Voice id=vietnam_hue
+          name=vietnam_hue
+          languages=[b'\x05vi-hue']
+          gender=male
+          age=None>
+66
+<Voice id=vietnam_sgn
+          name=vietnam_sgn
+          languages=[b'\x05vi-sgn']
+          gender=male
+          age=None>
+67
+<Voice id=Mandarin
+          name=Mandarin
+          languages=[b'\x05zh']
+          gender=male
+          age=None>
+68
+<Voice id=cantonese
+          name=cantonese
+          languages=[b'\x05zh-yue']
+          gender=male
+          age=None>
