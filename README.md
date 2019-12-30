@@ -18,6 +18,23 @@ The speciality of the device lies in the revolutionarily convinient and enabling
 * Media file manipulation (play, pause, seek)
 * Modular with removable memory storage
 
+## Controls
+
+All controls are single key character configuration in PC ubutntu and buttons in raspbian
+
+```
+l - List all files in directory
+n - List current directory name
+x - move over next directory
+z - move over previous directory
+p - Proceed into directory
+o - open current file
+0 - pause audio
+1 - play audio
+4 - seek audio forward 10 seconds
+3 - seek audio backward 10 seconds
+```
+
 ## Cost Estimates
 
 * Raspberry Pi Zero - ₹1,600

@@ -2,3 +2,20 @@ import vlc
 import pyttsx3
 import os
 from multiprocessing import Process
+
+
+def sayWords(dialog):
+    engine = pyttsx3.init() # object creation
+    voices = engine.getProperty('voices')
+    engine.setProperty('voice', voices[11].id)  # changes the voice
+    engine.say(dialog)
+    engine.runAndWait()
+
+
+if __name__=="__main__":
+
+    while True:
+
+        inputKey = input()
+
+        if(inputKey == "")
