@@ -26,12 +26,11 @@ All controls are single key character configuration in PC ubutntu and buttons in
 sa - stop all running processes
 l - list all files in directory
 n - say current directory name
-x - move over next directory
+c - move over next directory
 z - move over previous directory
-q - shift one file backward
-e - shift one file forward
+q - shift one file upward
+e - shift one file downward
 p - Proceed into directory
-o - open current file
 0 - pause audio
 1 - play audio
 4 - seek audio forward 10 seconds

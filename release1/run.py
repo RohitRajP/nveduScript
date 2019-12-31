@@ -20,14 +20,19 @@ def listAllFiles():
         sayWords(str(fileName))
 
 def sayDirectory():
-    sayWords("Now in: ")
-    sayWords(str(os.getcwd()))
+    sayWords("Now in: "+str(os.getcwd()).split('/').pop())
 
 def moveOneFileForward(dirFiles,dirFilesIndex):
     sayWords(dirFiles[dirFilesIndex])
 
 def moveOneFileBackward(dirFiles,dirFilesIndex):
     sayWords(dirFiles[dirFilesIndex])
+    
+def moveForward(dirFiles,dirFilesIndex):
+    sayWords("Now in: "+str(os.getcwd()).split('/').pop())
+
+def moveBackward():
+    sayWords("Now in: "+str(os.getcwd()).split('/').pop())
 
 if __name__=="__main__":
 
@@ -38,8 +43,12 @@ if __name__=="__main__":
     sayDirectoryProc = Process(target=sayDirectory)
     moveOneFileForwardProc = Process(target=moveOneFileForward)
     moveOneFileBackwardProc = Process(target=moveOneFileBackward)
+    moveForwardProc = Process(target=moveForward)
+    moveBackwardProc = Process(target=moveBackward)
 
     while True:
+
+        dirFiles = []
 
         for fileName in os.listdir():
             dirFiles.append(fileName)
@@ -54,6 +63,10 @@ if __name__=="__main__":
             moveOneFileForwardProc.terminate()
         elif(moveOneFileBackwardProc.is_alive() == True):
             moveOneFileBackwardProc.terminate()
+        elif(moveForwardProc.is_alive() == True):
+            moveForwardProc.terminate()
+        elif(moveBackwardProc.is_alive() == True):
+            moveBackwardProc.terminate()
 
         if(inputKey == "l"):
             listAllFilesProc = Process(target=listAllFiles)
@@ -75,6 +88,20 @@ if __name__=="__main__":
                 dirFilesIndex=len(dirFiles)-1
             moveOneFileBackwardProc = Process(target=moveOneFileBackward, args=(dirFiles,dirFilesIndex))
             moveOneFileBackwardProc.start()
-        elif(inputKey == "sa"):
-            listAllFilesProc.terminate()
+        elif(inputKey == "c"):
+            if(dirFiles[dirFilesIndex].find(".mp3") == -1):
+                os.chdir(str(os.getcwd())+"/"+dirFiles[dirFilesIndex])
+                moveForwardProc = Process(target=moveForward, args=(dirFiles,dirFilesIndex))
+                moveForwardProc.start()
+            else:
+                print("playing music")
+                player = vlc.MediaPlayer(str(os.getcwd())+"/"+dirFiles[dirFilesIndex])
+                player.play()
+        elif(inputKey == "z"):
+            os.chdir('..')
+            moveBackwardProc = Process(target=moveBackward)
+            moveBackwardProc.start()
+
+
+        
                 
