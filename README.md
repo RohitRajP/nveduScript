@@ -23,10 +23,13 @@ The speciality of the device lies in the revolutionarily convinient and enabling
 All controls are single key character configuration in PC ubutntu and buttons in raspbian
 
 ```
-l - List all files in directory
-n - List current directory name
+sa - stop all running processes
+l - list all files in directory
+n - say current directory name
 x - move over next directory
 z - move over previous directory
+q - shift one file backward
+e - shift one file forward
 p - Proceed into directory
 o - open current file
 0 - pause audio
@@ -39,3 +42,10 @@ o - open current file
 
 * Raspberry Pi Zero - ₹1,600
 
+## Problems resolved
+
+### Synchronization of values between processes
+
+Tried solving using pool and multiprocessing values, but due to the asynchronous and independent nature of Process and add the fact that only one process should run at a time, the best solution is to remove the dependance on shared memory
+
+Solved this problem by extracting the part that requires shared memory 
